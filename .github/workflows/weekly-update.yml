@@ -1,0 +1,33 @@
+name: Weekly data update
+
+on:
+  schedule:
+    - cron: "0 14 * * 2"   # every Tuesday at 9 a.m. Eastern, after Monday Night Football
+  workflow_dispatch:        # adds a "Run workflow" button for running it by hand
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Rebuild the analysis
+        run: |
+          python 02_get_weekly_scores.py
+          python 03_expected_wins.py
+          python 04_simulate_schedules.py
+          python 05_lineup_efficiency.py
+          python 06_lineup_losses.py
+      - name: Commit new data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Weekly data update"
+          git push

@@ -1,0 +1,5 @@
+espn-api
+pandas
+numpy
+streamlit
+altair

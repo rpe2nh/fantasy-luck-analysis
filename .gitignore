@@ -1,0 +1,7 @@
+.venv/
+data/team_labels_PRIVATE.csv
+check_my_losses.py
+make_secrets.py
+.streamlit/secrets.toml
+__pycache__/
+.DS_Store
