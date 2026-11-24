@@ -9,6 +9,7 @@ week,team,score,opponent,opponent_score,result
 8,My Team,140.18,Team D,93.62,W
 9,My Team,170.74,Team I,110.66,W
 10,My Team,151.06,Team N,148.96,W
+11,My Team,85.5,Team M,91.66,L
 1,Team B,137.4,Team L,91.06,W
 2,Team B,101.7,My Team,122.98,L
 3,Team B,142.76,Team E,89.02,W
@@ -19,6 +20,7 @@ week,team,score,opponent,opponent_score,result
 8,Team B,125.3,Team H,69.66,W
 9,Team B,70.4,Team F,113.72,L
 10,Team B,129.4,Team C,111.32,W
+11,Team B,113.34,Team J,53.24,W
 1,Team C,139.6,My Team,146.76,L
 2,Team C,123.76,Team E,107.06,W
 3,Team C,63.14,Team D,128.76,L
@@ -29,6 +31,7 @@ week,team,score,opponent,opponent_score,result
 8,Team C,98.6,Team F,115.38,L
 9,Team C,114.1,Team J,100.58,W
 10,Team C,111.32,Team B,129.4,L
+11,Team C,139.0,Team K,107.5,W
 1,Team D,172.86,Team H,88.62,W
 2,Team D,89.42,Team F,117.88,L
 3,Team D,128.76,Team C,63.14,W
@@ -39,6 +42,7 @@ week,team,score,opponent,opponent_score,result
 8,Team D,93.62,My Team,140.18,L
 9,Team D,97.66,Team E,74.72,W
 10,Team D,86.22,Team J,90.48,L
+11,Team D,100.94,Team I,94.3,W
 1,Team E,111.62,Team F,126.9,L
 2,Team E,107.06,Team C,123.76,L
 3,Team E,89.02,Team B,142.76,L
@@ -49,6 +53,7 @@ week,team,score,opponent,opponent_score,result
 8,Team E,100.44,Team J,136.8,L
 9,Team E,74.72,Team D,97.66,L
 10,Team E,105.94,Team I,84.38,W
+11,Team E,109.86,Team N,67.16,W
 1,Team F,126.9,Team E,111.62,W
 2,Team F,117.88,Team D,89.42,W
 3,Team F,123.1,Team I,151.4,L
@@ -59,6 +64,7 @@ week,team,score,opponent,opponent_score,result
 8,Team F,115.38,Team C,98.6,W
 9,Team F,113.72,Team B,70.4,W
 10,Team F,97.96,Team K,154.96,L
+11,Team F,103.64,Team G,153.38,L
 1,Team G,114.96,Team K,117.8,L
 2,Team G,110.3,Team J,65.86,W
 3,Team G,107.84,Team L,136.94,L
@@ -69,6 +75,7 @@ week,team,score,opponent,opponent_score,result
 8,Team G,143.3,Team N,109.76,W
 9,Team G,110.38,Team M,90.36,W
 10,Team G,66.92,Team H,126.12,L
+11,Team G,153.38,Team F,103.64,W
 1,Team H,88.62,Team D,172.86,L
 2,Team H,80.22,Team I,84.52,L
 3,Team H,82.86,Team N,142.2,L
@@ -79,6 +86,7 @@ week,team,score,opponent,opponent_score,result
 8,Team H,69.66,Team B,125.3,L
 9,Team H,92.76,Team K,138.88,L
 10,Team H,126.12,Team G,66.92,W
+11,Team H,104.16,Team L,85.86,W
 1,Team I,102.14,Team M,105.36,L
 2,Team I,84.52,Team H,80.22,W
 3,Team I,151.4,Team F,123.1,W
@@ -89,6 +97,7 @@ week,team,score,opponent,opponent_score,result
 8,Team I,80.28,Team L,88.84,L
 9,Team I,110.66,My Team,170.74,L
 10,Team I,84.38,Team E,105.94,L
+11,Team I,94.3,Team D,100.94,L
 1,Team J,87.8,Team N,114.86,L
 2,Team J,65.86,Team G,110.3,L
 3,Team J,105.98,Team M,87.86,W
@@ -99,6 +108,7 @@ week,team,score,opponent,opponent_score,result
 8,Team J,136.8,Team E,100.44,W
 9,Team J,100.58,Team C,114.1,L
 10,Team J,90.48,Team D,86.22,W
+11,Team J,53.24,Team B,113.34,L
 1,Team K,117.8,Team G,114.96,W
 2,Team K,105.08,Team L,129.78,L
 3,Team K,135.28,My Team,134.88,W
@@ -109,6 +119,7 @@ week,team,score,opponent,opponent_score,result
 8,Team K,82.0,Team M,66.06,W
 9,Team K,138.88,Team H,92.76,W
 10,Team K,154.96,Team F,97.96,W
+11,Team K,107.5,Team C,139.0,L
 1,Team L,91.06,Team B,137.4,L
 2,Team L,129.78,Team K,105.08,W
 3,Team L,136.94,Team G,107.84,W
@@ -119,6 +130,7 @@ week,team,score,opponent,opponent_score,result
 8,Team L,88.84,Team I,80.28,W
 9,Team L,95.48,Team N,95.46,W
 10,Team L,107.92,Team M,95.04,W
+11,Team L,85.86,Team H,104.16,L
 1,Team M,105.36,Team I,102.14,W
 2,Team M,107.12,Team N,125.54,L
 3,Team M,87.86,Team J,105.98,L
@@ -129,6 +141,7 @@ week,team,score,opponent,opponent_score,result
 8,Team M,66.06,Team K,82.0,L
 9,Team M,90.36,Team G,110.38,L
 10,Team M,95.04,Team L,107.92,L
+11,Team M,91.66,My Team,85.5,W
 1,Team N,114.86,Team J,87.8,W
 2,Team N,125.54,Team M,107.12,W
 3,Team N,142.2,Team H,82.86,W
@@ -139,3 +152,4 @@ week,team,score,opponent,opponent_score,result
 8,Team N,109.76,Team G,143.3,L
 9,Team N,95.46,Team L,95.48,L
 10,Team N,148.96,My Team,151.06,L
+11,Team N,67.16,Team E,109.86,L
